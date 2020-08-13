@@ -1,0 +1,11 @@
+html {
+    background-color: rgb(165, 187, 228);
+}
+
+body {
+    align-self: center;
+    width: 85%;
+    background-color: white;
+    position: absolute;
+    left: 5%;
+}
