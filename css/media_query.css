@@ -5,7 +5,51 @@ html {
 body {
     align-self: center;
     width: 85%;
+    height: 800px;
     background-color: white;
     position: absolute;
     left: 5%;
 }
+
+header {
+    background-color: darkblue;
+    height: ;
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    width: 400px;
+}
+
+.nav{
+    background-color: white;
+    color: #00B8F1;
+    text-align: right;
+    padding: 20px;
+}
+.button {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #00B8F1;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    clear: left;
+  }
+  
+  .button:hover {
+      background-color: rgb(2, 154, 200);
+    }
+  
+  .button:active {
+    background-color: rgb(2, 154, 200);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
