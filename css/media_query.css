@@ -1,3 +1,15 @@
+@charset "UTF-8";
+/* 
+FONTS:
+    */
+@font-face{
+    font-family: 'merri';
+    src: url('../css/fonts/Merriweather-Regular.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'alata';
+    src: url('../css/fonts/Alata-Regular.ttf') format('truetype');
+}
 html {
     background-color: rgb(165, 187, 228);
 }
@@ -53,3 +65,153 @@ header {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+
+
+@media only screen and (min-width: 1281px) and (max-width: 2500px) {
+    /* DESKTOP LAYOUT*/
+    /* This width should be 1920px */
+    .container{
+        grid-template-columns: ;
+        grid-template-rows: ;
+        display: grid;
+    }
+    
+    .head{
+
+    }
+    .navbutton{
+
+    }
+    .logo{
+
+    }
+    .nav{
+        grid-row-start: ;
+        grid-row-end: ;
+        grid-column-start: ;
+        grid-column-end: ;
+    }
+
+    .foot{
+        grid-row-start: ;
+        grid-row-end: ;
+        grid-column-start: ;
+        grid-column-end: ;
+    }
+    /*INDEX PAGE */
+
+    /*STORE PAGE*/
+
+    /*ABOUT US PAGE*/
+
+    /*APPLICATION PAGE*/
+
+    /* REVIEW PAGE */
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1280px) {
+    /*TABLET PORTRAIT*/
+    /*The width should be 820px*/
+    .container{
+        grid-template-columns: ;
+        grid-template-rows: ;
+        display: grid;
+    }
+    
+    .head{
+        grid-row-start: ;
+        grid-row-end: ;
+        grid-column-start: ;
+        grid-column-end: ;
+    }
+    .navbutton{
+
+}   
+    .logo{
+
+    }
+    .nav{
+        grid-row-start: ;
+        grid-row-end: ;
+        grid-column-start: ;
+        grid-column-end: ;
+    }
+
+    .foot{
+        grid-row-start: ;
+        grid-row-end: ;
+        grid-column-start: ;
+        grid-column-end: ;
+    }
+    /*INDEX PAGE */
+
+    /*STORE PAGE*/
+
+    /*ABOUT US PAGE*/
+
+    /*APPLICATION PAGE*/
+
+    /* REVIEW PAGE */
+
+
+
+}
+@media only screen and (min-width: 700px) and (max-width: 1280px) and (orientation: landscape) {
+    /*LANDSCAPE TABLET LAYOUT*/
+    .container{
+        grid-template-columns: ;
+        grid-template-rows: ;
+        display: grid;
+    }
+    
+    .head{
+        grid-row-start: ;
+        grid-row-end: ;
+        grid-column-start: ;
+        grid-column-end: ;
+    }
+    .navbutton{
+
+    }
+    .logo{
+
+    }
+    .nav{
+        grid-row-start: ;
+        grid-row-end: ;
+        grid-column-start: ;
+        grid-column-end: ;
+    }
+
+    .foot{
+        grid-row-start: ;
+        grid-row-end: ;
+        grid-column-start: ;
+        grid-column-end: ;
+    }
+    /*INDEX PAGE */
+
+    /*STORE PAGE*/
+
+    /*ABOUT US PAGE*/
+
+    /*APPLICATION PAGE*/
+
+    /* REVIEW PAGE */
+
+}
+
+
+@media only screen and (min-width: 351px) and (max-width: 699px) {
+    /*INDEX PAGE */
+
+    /*STORE PAGE*/
+
+    /*ABOUT US PAGE*/
+
+    /*APPLICATION PAGE*/
+
+    /* REVIEW PAGE */
+
+}
