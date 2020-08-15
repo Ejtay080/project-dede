@@ -1,15 +1,15 @@
 function indexPage() {
     location.replace("index.html");
 }
-function careerPage() {
-    location.replace("career.html");
+function storePage() {
+    location.replace("store.html");
 }
-function galleryPage() {
-    location.replace("gallery.html");
+function reviewPage() {
+    location.replace("review.html");
 }
-function aboutMePage() {
-    location.replace("aboutme.html");
+function aboutUsPage() {
+    location.replace("aboutus.html");
 }
-function resumePage() {
-    location.replace("resume.html");
+function applicationPage() {
+    location.replace("application.html");
 }
