@@ -20,7 +20,7 @@ body {
     height: 800px;
     background-color: white;
     position: absolute;
-    left: 5%;
+    left: 7.5%;
 }
 
 header {
@@ -31,7 +31,7 @@ header {
 .button {
     display: inline-block;
     padding: 5px 15px;
-    font-size: 12px;
+    font-size: 30px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -79,8 +79,10 @@ header {
         grid-column-end: 4;
         background-color: white;
         color: #00B8F1;
-        text-align: right;
+        text-align: center;
         padding: 20px;
+        padding-left: 140px;
+        padding-top: 60px;
     }
 
     .foot{
@@ -91,37 +93,72 @@ header {
         background-color: darkblue;
     }
     /*INDEX PAGE */
-    @webkit-keyframes multiple-images-crossfade{ 0% { opacity:1;}  45%{opacity 1;}  55%{opacity: 0;}  100%{opacity:0;} }
-    .slideshow > img{
-        position: absolute;  
-        -webkit-animation-name: multiple-images-crossfade;
-        animation-name: multiple-images-crossfade; -webkit-animation-timing-function:ease-in-out; animation-timing-function: ease-in-out; -webkit-animation-iteration-coun: infinite; animation-iteration-count: infinite; -webkit-animation-duration: 8s; animation-duration: 12s;
+   
+    .slideshow{
+        display: grid;
+        position: relative;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 2;
+        grid-column-end: 4;
+    } 
+    .index1 >img{
+   position:absolute;
+   animation-name: multiple-images-crossfade;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-duration: 12s;
+   width: 684px;
     }
-    .slideshow > img:nth-of-type(1){
+    .index1 >img:nth-of-type(1){
         animation-delay: 8s;
     }
-    .slideshow > img:nth-last-of-type(2){
+    .index1 >img:nth-last-of-type(2){
         animation-delay: 4s;
     }
+
+    @keyframes multiple-images-crossfade{ 
+    0%{ 
+    opacity:1;
+    }
+
+    45%{
+    opacity: 1;
+    }
+
+    55%{
+    opacity: 0;
+    }  
+
+    100%{
+    opacity:0;
+    } 
+}
+
+.index1 img{
+    border: 2px #00B8F1 solid;
+    width: 850px;
+    height: 566px;
+}
+
     .index1{
-        width: 65%;
-        border: 2px #00B8F1 solid;
+        width: 85%;
         height: 580px;
         text-align: center;
         position: relative;
-        top: 100px;
-        left: 500px;
-        
+        top: 50px;
+        right: 290px;
     }
     .indextxt{
         width: 300px;
         padding: 10px;
         font-family: 'merri';
         position: relative;
-        top: 150px;
+        top: 100px;
         left: 40px;
         text-align: center;
         font-size: 150%;
+        clear: right;
     }
     /*STORE PAGE*/
 
