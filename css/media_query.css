@@ -317,7 +317,7 @@ header {
     left: 125px;
    }
     /* REVIEW PAGE */
-<<<<<<< HEAD
+ HEAD
 
     /* MAIN SHOP TABLE*/
     .store {
@@ -347,7 +347,7 @@ header {
         width: 100%;
         height: 500px;
         font-family: 'Courier New', Courier, monospace;
-=======
+    }
     .star{
         height: 30px;
         width: 35px;
@@ -646,10 +646,6 @@ header {
         grid-template-rows: ;
         display: grid;
     }
-    
-    .logo{
-
-    }
     .nav{
         grid-row-start: 1;
         grid-row-end: 2;
@@ -657,12 +653,6 @@ header {
         grid-column-end: 4;
     }
 
-    .foot{
-        grid-row-start: ;
-        grid-row-end: ;
-        grid-column-start: ;
-        grid-column-end: ;
-    }
     /*INDEX PAGE */
 
     /*STORE PAGE*/
@@ -753,7 +743,33 @@ header {
         left: 50px;
     }
     /*STORE PAGE*/
+    .store {
+        position: relative;
+        overflow-x: scroll;
+        width: 100%;
+        height: 500px;
+        font-family: 'Courier New', Courier, monospace;
+    }
 
+    .shopitem, .shopitem > img {
+        width: 250px;
+        height: 200px;
+        z-index: 2;
+    }
+
+    .fieldname {color: rgb(81, 177, 164)}
+
+    .evenrow {text-align: center; background-color: aquamarine;}
+    .oddrow {text-align: center; background-color: rgb(200, 255, 237);}
+
+    .store2 {
+        position: absolute;
+        top: 800px;
+        overflow-x: scroll;
+        width: 100%;
+        height: 500px;
+        font-family: 'Courier New', Courier, monospace;
+    }
     /*ABOUT US PAGE*/
     .aboutus{
         position: relative;
