@@ -6,7 +6,7 @@
             <title>CFLOOR TECH: APPLY NOW</title>
         </head>
 
-        <body>
+        <body class="container">
             <script src="js/test.js"></script>
 
             <div class="nav">
@@ -20,23 +20,24 @@
                 <img class="logo" src="images/logo.PNG">
             </div>
             <div class="applicationtxt">
-                <img src="images/" class="">
-                <p><br><br><br>We here at CFLOOR are always looking for new people to join us in our many projects we undertake around the world’s oceans. <br> We’re primarily interested in Marine Biologists and oceanographic cartographers for our currently active study projects and mapping work.</p>
+               <!-- <img src="images/" class="">-->
+               <p><br><br><br>We here at CFLOOR are always looking for new people to join us in our many projects we undertake around the world’s oceans. <br> We’re primarily interested in Marine Biologists and oceanographic cartographers for our currently active study projects and mapping work.</p>
             </div>
             <div class="application">
-                <form>
+                <form class="apply">
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required><br>
+                    <input type="text" id="name" name="name" placeholder="Full Name" required><br>
                     <label for="age">Age:</label>
-                    <input type="number" id="age" name="age" min="1" max="125" required><br>
+                    <input type="number" id="age" name="age" min="1" max="125" placeholder="Age"  required><br>
                     <label for="ssn">Social Security Number:</label>
-                    <input type="text" id="ssn" name="ssn" required><br><br>
+                    <input type="text" id="ssn" name="ssn" placeholder="Ex. 241-42-5787" required><br><br>
+                    <label for="myFile">Upload Resume</label>
                     <input type="file" id="myFile" name="filename" required><br><br>
                     <label for="address">Address:</label>
-                    <input type="text" id="address" name="address" required><br>
+                    <input type="text" id="address" name="address" placeholder="Ex. 1467 E. Gabba DR." required><br>
                     <label for="PN">Phone Number:</label>
-                    <input type="text" id="PN" name="PN" required><br>
-                    <input type="submit">
+                    <input type="text" id="PN" name="PN" placeholder="EX. 123-456-7890" required><br>
+                    <input class="sub-butn sub-mit"  type="submit">
                 </form>
             </div>
             <footer></footer>

@@ -169,10 +169,12 @@ header {
         grid-row-end: 3;
         grid-column-start: 1;
         grid-column-end: 4;
+        position: relative;
+        left: 385px;
     }
     .aboutus1{
         width: 500px;
-        height: 800px;
+        height: 680px;
     }
     .aboutustxt{
         float:right;
@@ -182,8 +184,8 @@ header {
         padding: 10px;
         text-align: center;
         position: relative;
-        right: 20px;
-        top: 30px;
+        right: 380px;
+        top: 10px;
     }
     .positions{
         grid-row-start: 3;
@@ -191,8 +193,134 @@ header {
         grid-column-start: 1;
         grid-column-end: 4;
     }
-    /*APPLICATION PAGE*/
 
+    .positions img{
+        width: 160px;
+        height: 160px;
+        position: relative;
+        border: #00B8F1 2px solid;
+    }
+
+    .positions p{
+        position: relative;
+        font-size: 16px;
+    }
+
+    .title{
+        position: relative;
+        bottom: 270px;
+        left: 160px;
+    }
+    
+    .pic1{
+        bottom: 250px;
+        left: 30px;
+    }
+
+    .pic2{
+        left: 210px;
+        bottom: 469px;
+    }
+
+    .pic3{
+        left: 30px;
+        bottom: 400px;
+    }
+
+    .pic4{
+        left: 210px;
+        bottom: 619px;
+    }
+
+    .pic1txt{
+        left: 90px;
+        bottom: 250px;
+    }
+
+    .pic2txt{
+        left: 210px;
+        bottom: 469px;
+    }
+
+    .pic3txt{
+        left: 65px;
+        bottom: 400px;
+    }
+
+    .pic4txt{
+        left: 250px;
+        bottom: 619px;
+    }
+    /*APPLICATION PAGE*/
+    .application{
+        background-image: url("../images/e_sunset.jpg");
+        min-height: 650px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: 20px;
+        left: 450px;
+        border:2px #00B8F1 solid ;
+    }
+
+    input[type=text], input[type=number], input[type=file] {
+        width: 90%;
+        padding: 10px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+      }
+
+      input[type=text]:focus, input[type=password]:focus, input[type=file]:focus  {
+        background-color: #ddd;
+        outline: none;
+      }
+
+    .apply{
+        position: absolute;
+        padding: 10px;
+        background-color:rgba(255,255,255,0.7);
+        bottom: 0.5px;
+        left: 50px;
+        font-family: "alata";
+    }
+
+    .applicationtxt{
+        position: relative;
+        left: 140px;
+        font-size: 30px;
+        width: 400px;
+        bottom: 35px;
+        text-align: center;
+        font-family: "merri";
+    }
+
+   .sub-butn{
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+   }
+
+   .sub-butn:hover{
+    background-color: #e7e7e7;
+   }
+
+   .sub-mit{
+    border: none;
+    color:black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: "alata";
+    position: relative;
+    left: 125px;
+   }
     /* REVIEW PAGE */
 
 }
