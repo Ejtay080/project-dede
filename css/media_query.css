@@ -50,6 +50,7 @@ header {
 @media only screen and (min-width: 1281px) and (max-width: 2500px) {
     /* DESKTOP LAYOUT*/
     /* This width should be 1920px */
+    /* 125% Zoom */
 
     body {
         align-self: center;
@@ -507,6 +508,7 @@ header {
 
 
 @media only screen and (min-width: 351px) and (max-width: 699px) {
+    /*PHONE PORTRAIT LAYOUT, 500 PX, 100% Zoom */
     .nav{
         background-color: white;
         text-align: center;
