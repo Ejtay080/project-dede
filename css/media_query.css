@@ -50,6 +50,7 @@ header {
 @media only screen and (min-width: 1281px) and (max-width: 2500px) {
     /* DESKTOP LAYOUT*/
     /* This width should be 1920px */
+    /* 125% Zoom */
 
     body {
         align-self: center;
@@ -322,6 +323,7 @@ header {
     left: 125px;
    }
     /* REVIEW PAGE */
+<<<<<<< HEAD
 
     /* MAIN SHOP TABLE*/
     .store {
@@ -351,6 +353,21 @@ header {
         width: 100%;
         height: 500px;
         font-family: 'Courier New', Courier, monospace;
+=======
+    .star{
+        height: 30px;
+        width: 35px;
+       
+    }
+    .reviews{
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        position: relative;
+        bottom: 130px;
+        font-family: "merri";
+>>>>>>> master
     }
 }
 
@@ -490,12 +507,132 @@ header {
     /*STORE PAGE*/
 
     /*ABOUT US PAGE*/
+    body{
+        top: 20%;
+        left: 15%;
+        min-width:100%;
+    }
+    
+    .aboutus{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        position: relative;
+        left: 450px;
+        bottom: 80px;
+        top: 5px;
+    }
+    .aboutus1{
+        width: 500px;
+        height: 600px;
+    }
+    .aboutustxt{
+        float:right;
+        font-family: 'merri';
+        font-size: 150%;
+        width: 400px;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        right: 500px;
+        top: 50px;
+        width: 950px;
+    }
+    .positions{
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
 
+    .positions img{
+        width: 160px;
+        height: 160px;
+        position: relative;
+        border: #00B8F1 2px solid;
+    }
+
+    .positions p{
+        position: relative;
+        font-size: 16px;
+    }
+
+    .title{
+        position: relative;
+        bottom: 440px;
+        left: 160px;
+    }
+    
+    .pic1{
+        bottom: 400px;
+        left: 30px;
+    }
+
+    .pic2{
+        left: 210px;
+        bottom: 615px;
+    }
+
+    .pic3{
+        left: 30px;
+        bottom: 515px;
+    }
+
+    .pic4{
+        left: 210px;
+        bottom: 733px;
+    }
+
+    .pic1txt{
+        left: 30px;
+        bottom: 400px;
+    }
+
+    .pic2txt{
+        left: 170px;
+        bottom:  615px;
+    }
+
+    .pic3txt{
+        left: 30px;
+        bottom: 515px;
+    }
+
+    .pic4txt{
+        left: 230px;
+        bottom:  733px;
+    }
     /*APPLICATION PAGE*/
 
     /* REVIEW PAGE */
+    body{
+        top: 5%;
+       left: 0%;
+       right: 0%;
+       margin-left: 0%;
+        min-width:100%;
+    }
 
-
+    .star{
+        height: 30px;
+        width: 35px;
+       
+    }
+    .reviews{
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        position: relative;
+        bottom: 390px;
+        font-family: "merri";
+        font-size: 25px;
+    }
+    .nav{
+        font-size: 45px;
+        left:5%
+    }
 
 }
 @media only screen and (min-width: 700px) and (max-width: 1280px) and (orientation: landscape) {
@@ -510,10 +647,10 @@ header {
 
     }
     .nav{
-        grid-row-start: ;
-        grid-row-end: ;
-        grid-column-start: ;
-        grid-column-end: ;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 4;
     }
 
     .foot{
@@ -531,9 +668,10 @@ header {
     /*APPLICATION PAGE*/
 
     /* REVIEW PAGE */
-
+   
 }
 @media only screen and (min-width: 351px) and (max-width: 699px) {
+    /*PHONE PORTRAIT LAYOUT, 500 PX, 100% Zoom */
     .nav{
         background-color: white;
         text-align: center;
