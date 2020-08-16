@@ -323,6 +323,35 @@ header {
    }
     /* REVIEW PAGE */
 
+    /* MAIN SHOP TABLE*/
+    .store {
+        position: absolute;
+        top: 175px;
+        overflow-x: scroll;
+        width: 100%;
+        height: 500px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .shopitem, .shopitem > img {
+        width: 250px;
+        height: 200px;
+        z-index: 2;
+    }
+
+    .fieldname {color: rgb(81, 177, 164)}
+
+    .evenrow {text-align: center; background-color: aquamarine;}
+    .oddrow {text-align: center; background-color: rgb(200, 255, 237);}
+
+    .store2 {
+        position: absolute;
+        top: 800px;
+        overflow-x: scroll;
+        width: 100%;
+        height: 500px;
+        font-family: 'Courier New', Courier, monospace;
+    }
 }
 
 @media only screen and (min-width: 700px) and (max-width: 1280px) and (orientation:portrait) {
@@ -504,8 +533,6 @@ header {
     /* REVIEW PAGE */
 
 }
-
-
 @media only screen and (min-width: 351px) and (max-width: 699px) {
     .nav{
         background-color: white;
