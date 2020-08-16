@@ -322,16 +322,7 @@ header {
     left: 125px;
    }
     /* REVIEW PAGE */
-   .star{
-       height: 30px;
-       width: 35px;
-   }
-   .reviews{
-       grid-row-start: 3;
-       grid-row-end: 3;
-       grid-column-start: 1;
-       grid-column-end: 3;
-   }
+
 }
 
 @media only screen and (min-width: 700px) and (max-width: 1280px) and (orientation:portrait) {
@@ -516,14 +507,181 @@ header {
 
 
 @media only screen and (min-width: 351px) and (max-width: 699px) {
+    .nav{
+        background-color: white;
+        text-align: center;
+        padding: 10px;
+    }
+    body {
+        align-self: center;
+        width: 85%;
+        background-color: white;
+        position: absolute;
+        left: 6%;
+    }
+    .logo{
+        position: relative;
+        width: 400px;
+        left: 7.5px;
+    }
     /*INDEX PAGE */
+    .slideshow{
+        display: relative;
+    } 
+    .index1 >img{
+   position:absolute;
+   animation-name: multiple-images-crossfade;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   animation-duration: 12s;
+   width: 684px;
+    }
+    .index1 >img:nth-of-type(1){
+        animation-delay: 8s;
+    }
+    .index1 >img:nth-last-of-type(2){
+        animation-delay: 4s;
+    }
 
+    @keyframes multiple-images-crossfade{ 
+    0%{ 
+    opacity:1;
+    }
+
+    45%{
+    opacity: 1;
+    }
+
+    55%{
+    opacity: 0;
+    }  
+
+    100%{
+    opacity:0;
+    } 
+}
+
+.index1 img{
+    border: 2px #00B8F1 solid;
+    width: 375px;
+    height: 366px;
+}
+
+    .index1{
+        width: 85%;
+        height: 580px;
+        text-align: center;
+        position: relative;
+        left: -160px;
+    }
+    .indextxt{
+        width: 300px;
+        font-family: 'merri';
+        position: relative;
+        text-align: center;
+        font-size: 175%;
+        top: -200px;
+        left: 50px;
+    }
     /*STORE PAGE*/
 
     /*ABOUT US PAGE*/
+    .aboutus{
+        position: relative;
+    }
+    .aboutus1{
+        width: 411px;
+        height: 680px;
+    }
+    .aboutustxt{
+        float:right;
+        font-family: 'merri';
+        font-size: 150%;
+        width: 400px;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        top: 10px;
+    }
+    .positions{
+        text-align: center;
+        font-family: "alata";
+    }
 
+    .positions img{
+        width: 360px;
+        height: 460px;
+        position: relative;
+        border: #00B8F1 2px solid;
+    }
     /*APPLICATION PAGE*/
+    .application{
+        background-image: url("../images/e_sunset.jpg");
+        min-height: 650px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border:2px #00B8F1 solid ;
+    }
 
+    input[type=text], input[type=number], input[type=file] {
+        width: 90%;
+        padding: 10px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+      }
+
+      input[type=text]:focus, input[type=password]:focus, input[type=file]:focus  {
+        background-color: #ddd;
+        outline: none;
+      }
+
+    .apply{
+        position: absolute;
+        padding: 10px;
+        background-color:rgba(255,255,255,0.7);
+        font-family: "alata";
+        width : 387px;
+        bottom: 8px;
+    }
+
+    .applicationtxt{
+        position: relative;
+        font-size: 150%;
+        width: 400px;
+        bottom: 75px;
+        left: 10px;
+        text-align: center;
+        font-family: "merri";
+    }
+
+   .sub-butn{
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+   }
+
+   .sub-butn:hover{
+    background-color: #e7e7e7;
+   }
+
+   .sub-mit{
+    border: none;
+    color:black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: "alata";
+    position: relative;
+    left: 120px;
+   }
     /* REVIEW PAGE */
 
 }
