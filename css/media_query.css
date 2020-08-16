@@ -322,7 +322,16 @@ header {
     left: 125px;
    }
     /* REVIEW PAGE */
-
+   .star{
+       height: 30px;
+       width: 35px;
+   }
+   .reviews{
+       grid-row-start: 3;
+       grid-row-end: 3;
+       grid-column-start: 1;
+       grid-column-end: 3;
+   }
 }
 
 @media only screen and (min-width: 700px) and (max-width: 1280px) and (orientation:portrait) {
