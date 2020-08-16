@@ -87,13 +87,7 @@ header {
         padding-top: 60px;
     }
 
-    .foot{
-        grid-row-start: 4;
-        grid-row-end: 5;
-        grid-column-start: 1;
-        grid-column-end: 4;
-        background-color: darkblue;
-    }
+
     /*INDEX PAGE */
    
     .slideshow{
@@ -367,7 +361,17 @@ header {
         position: relative;
         bottom: 130px;
         font-family: "merri";
->>>>>>> master
+        text-align: center;
+        float: right;
+        clear: left;
+    }
+    .reviewimage{
+        position: absolute;
+        width: 400px;
+        height: 600px;
+        top: -130px;
+        right: -450px;
+        border: #00B8F1 2px solid;
     }
 }
 
@@ -848,5 +852,22 @@ header {
     left: 120px;
    }
     /* REVIEW PAGE */
-
+    .star{
+        height: 30px;
+        width: 35px;
+       
+    }
+    .reviews{
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        position: relative;
+        font-family: "merri";
+        text-align: center;
+    }
+    .reviewimage{
+        width: 400px;
+        border: #00B8F1 2px solid;
+    }
 }
