@@ -226,6 +226,8 @@ header {
     .positions p{
         position: relative;
         font-size: 16px;
+        font-family: "alata";
+        text-align: center;
     }
  
     .title{
@@ -241,37 +243,37 @@ header {
  
     .pic2{
         left: 210px;
-        bottom: 469px;
+        bottom: 495px;
     }
  
     .pic3{
         left: 30px;
-        bottom: 400px;
+        bottom: 450px;
     }
  
     .pic4{
         left: 210px;
-        bottom: 619px;
+        bottom: 695px;
     }
  
     .pic1txt{
-        left: 90px;
-        bottom: 250px;
+        right: 540px;
+        bottom: 240px;
     }
  
     .pic2txt{
-        left: 210px;
-        bottom: 469px;
+        right: 350px;
+        bottom: 485px;
     }
  
     .pic3txt{
-        left: 65px;
-        bottom: 400px;
+        right: 535px;
+        bottom: 450px;
     }
  
     .pic4txt{
-        left: 250px;
-        bottom: 640px;
+        right: 360px;
+        bottom: 697px;
     }
     /*APPLICATION PAGE*/
     .application{
