@@ -317,7 +317,23 @@ header {
     left: 125px;
    }
     /* REVIEW PAGE */
- HEAD
+    .star{
+        height: 30px;
+        width: 35px;
+    }
+    .reviews{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        position: relative;
+        bottom: 125px;
+    }
+    .reef{
+        position:absolute;
+        left: 900px;
+        top: 100px;
+    }
 
     /* MAIN SHOP TABLE*/
     .store {
@@ -348,6 +364,7 @@ header {
         height: 500px;
         font-family: 'Courier New', Courier, monospace;
     }
+        
     .star{
         height: 30px;
         width: 35px;
@@ -372,6 +389,7 @@ header {
         top: -130px;
         right: -450px;
         border: #00B8F1 2px solid;
+
     }
 }
 
@@ -642,9 +660,13 @@ header {
 @media only screen and (min-width: 700px) and (max-width: 1280px) and (orientation: landscape) {
     /*LANDSCAPE TABLET LAYOUT*/
     .container{
-        grid-template-columns: ;
-        grid-template-rows: ;
+        grid-template-columns: 10% 20% 20% 20% 20% 10%;
+        grid-template-rows: 10% 20% 20% 20% 20% 10%;
         display: grid;
+    }
+    
+    .logo{
+
     }
     .nav{
         grid-row-start: 1;
@@ -653,6 +675,12 @@ header {
         grid-column-end: 4;
     }
 
+    .foot{
+        grid-row-start: ;
+        grid-row-end: ;
+        grid-column-start: ;
+        grid-column-end: ;
+    }
     /*INDEX PAGE */
 
     /*STORE PAGE*/
@@ -662,6 +690,37 @@ header {
     /*APPLICATION PAGE*/
 
     /* REVIEW PAGE */
+    .star{
+        height: 30px;
+        width: 35px;
+       
+    }
+    .reviews{
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        position: relative;
+        font-family: "merri";
+    }
+
+    }
+    body{
+        background-color: white;
+    }
+    .reef{
+        grid-row-start: 3;
+        grid-row-end: 6;
+        grid-column-start: 4;
+        grid-column-end:6;
+        width: 350px;
+        height: 500px;
+    }
+    .nav{
+            grid-column-start: 4;
+            grid-column-end: 6;
+    }
+
    
 }
 @media only screen and (min-width: 351px) and (max-width: 699px) {
@@ -743,33 +802,7 @@ header {
         left: 50px;
     }
     /*STORE PAGE*/
-    .store {
-        position: relative;
-        overflow-x: scroll;
-        width: 100%;
-        height: 500px;
-        font-family: 'Courier New', Courier, monospace;
-    }
 
-    .shopitem, .shopitem > img {
-        width: 250px;
-        height: 200px;
-        z-index: 2;
-    }
-
-    .fieldname {color: rgb(81, 177, 164)}
-
-    .evenrow {text-align: center; background-color: aquamarine;}
-    .oddrow {text-align: center; background-color: rgb(200, 255, 237);}
-
-    .store2 {
-        position: absolute;
-        top: 800px;
-        overflow-x: scroll;
-        width: 100%;
-        height: 500px;
-        font-family: 'Courier New', Courier, monospace;
-    }
     /*ABOUT US PAGE*/
     .aboutus{
         position: relative;
